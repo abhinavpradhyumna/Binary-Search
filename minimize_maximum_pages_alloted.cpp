@@ -1,5 +1,5 @@
-//question link : https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
-#
+/*question link : https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
+
 Given an array arr[] of integers, where each element arr[i] represents the number of pages in the i-th book. You also have an integer k representing the number of students. The task is to allocate books to each student such that:
 
 Each student receives atleast one book.
@@ -18,7 +18,7 @@ Explanation: Allocation can be done in following ways:
 => [12, 34] and [67, 90] Maximum Pages = 157
 => [12, 34, 67] and [90] Maximum Pages = 113.
 The third combination has the minimum pages assigned to a student which is 113.
-#
+*/
 
 class Solution {
 public:
